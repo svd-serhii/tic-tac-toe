@@ -7,7 +7,7 @@ const GameOver = ({ winner, onRestart }) => {
 			{winner && <p>{winner} won!</p>}
 			{!winner && <p>It's a draw!</p>}
 			<p>
-				<button onClick={onRestart}>Rematch!</button>
+				<button onClick={onRestart}>Rematch the game!</button>
 			</p>
 		</div>
 	);
